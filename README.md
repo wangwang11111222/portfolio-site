@@ -33,10 +33,10 @@ Create these as separate public repositories:
 - `alpha158-factor-model`
 - `corporate-bond-structural-estimation`
 - `index-nav-verification`
-- `omscs-compiler`
-- `omscs-spanning-tree`
-- `omscs-deep-learning`
-- `omscs-hpc-hpca-systems`
-- `omscs-software-engineering`
+- `compiler`
+- `spanning-tree`
+- `deep-learning`
+- `hpc-hpca-systems`
+- `software-engineering`
 
 Then add their GitHub URLs to the website if you want direct project buttons.
