@@ -1,4 +1,14 @@
-# Local environments
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Local tooling / preview servers
+node_modules/
+.cache/
+.parcel-cache/
 .env
 .venv/
 venv/
@@ -6,35 +16,20 @@ env/
 __pycache__/
 *.py[cod]
 
-# IDE and OS files
-.idea/
-.vscode/
-.DS_Store
-Thumbs.db
+# Build output (this site has no build step, but keep the common folders ignored)
+dist/
+build/
+.tmp/
 
-# Large or private data artifacts
-data/
-raw/
-raw_*/
-*.csv.bak
-*.sas7bdat
-*.h5
-*.hdf5
-*.parquet
-*.pkl
-*.pt
-*.pth
-*.mat
-*.zip
-*.rar
-*.7z
-*.ova
-*.mp4
-*.mov
+# Logs
+*.log
+npm-debug.log*
 
-# Credentials and local notebooks
+# Credentials
 *.key
 *.pem
 *token*
 *secret*
 *password*
+
+# NOTE: assets/*.png are part of the site and are intentionally NOT ignored.
